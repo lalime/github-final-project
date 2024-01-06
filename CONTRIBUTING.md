@@ -28,15 +28,6 @@ conventions, and other standards.  See [STYLE.md] for details.
 Scripts are written for "bash" shell.
 Python code is written at the [Python 3.12](https://docs.python.org/3.12/) level.
 
-## Managing Dependencies
-
-Install or uninstall all dependencies using these commands while you are
-in the pipenv shell:
-
-```console
-(cfc) $ pipenv install <program>"
-(cfc) $ pipenv lock -r > requirements.txt"
-```
 
 The pipfile, pipfile.lock and requirements.txt will be part of the git
 commit/pull-request to be reviewed.
